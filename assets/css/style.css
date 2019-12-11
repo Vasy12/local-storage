@@ -1,0 +1,35 @@
+@import "reset.css";
+
+:root{
+}
+
+label{
+    display: flex;
+}
+
+label > input{
+    flex: 1;
+}
+
+label > span{
+    flex: 0.2;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.inputWrapper{
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: white;
+    max-width: 600px;
+    min-width: 320px;
+    border: 40px solid lightslategrey;
+}
+
